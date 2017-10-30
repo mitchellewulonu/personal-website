@@ -3,48 +3,87 @@
 <head>
 	<title>Mitchell's Corner</title>
 
+	<meta charset="UTF-8">
+  	<meta name="description" content="">
+  	<meta name="keywords" content="">
+  	<meta name="author" content="Mitchell Ewulonu">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!--using local bootstrap-->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- Optional theme -->
+	<!-- Optional theme -->
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<<<<<<< HEAD
+	<link rel="stylesheet" type="text/css" href="web_css/about_me.css">
+
 </head>
 <body>
-	<div class="body">
-		<nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-					<span class="icon-bar"></span>
-		   			<span class="icon-bar"></span>
-		   			<span class="icon-bar"></span>
-					</button>
-					<a href="" class="navbar-brand">Mitchell's Corner</a>
-				</div>	
-					<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-		    		<ul class="nav navbar-nav"> 
-		    			<li><a href="#Videos">Videos</a>
-		    			<li><a href="#Projects">Projects </a>
-		    			<li><a href="#Home">Home</a>
-		    			<li><a href="#Contact">Contact</a>
-		    			<li><a href="#About">About</a>
-		    		</ul>	
-		    	</div>
+<div class="container">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+		   		<span class="icon-bar"></span>
+		   		<span class="icon-bar"></span>
+				</button>
+				<a href="" class="navbar-brand">Mitchell's Corner</a>
+			</div>	
+			<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+		    	<ul class="nav navbar-nav"> 
+		    		<li><a href="#Videos">Videos</a>
+		    		<li><a href="#Projects">Projects </a>
+		    		<li><a href="#Home">Home</a>
+		    		<li><a href="#Contact">Contact</a>
+		    		<li><a href="#About">About me</a>
+		    	</ul>	
+		    </div>
+		</div> <!--end container-->
+	</nav> <!--end navbar-->
+</div>	
 
-				</div>
-			</div>
+<div class="jumbotron" id="About">
+	<div class="container text-center">
+		<h1><a style="text-decoration: none;" id="About-me"> About me</a></h1>
+		<div class="btn-group btn-group-justified">
+			<a href="#Bio" class="btn btn-lg btn-default">Bio</a>
+			<a href="#" class="btn btn-lg btn-default">Education</a>
+			<a href="#" class="btn btn-lg btn-default">Experience</a>
+		</div>
+	</div> <!--end container-->
+</div><!--end of jumbotron-->
 
-		</nav>
+<div class="container" style="padding: 20px 0px 0px 0px;">
+	<center><img src="images/linkedin_dp.jpg" class="img-circle img-responsive">
+	</center>
+</div>
 
-	</div>
+<div class="container" id="Bio">
+	<section style="padding: 40px 0px 40px 0px;">
+		<div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+  			<span style="font-size: 25px; background-color: #ffffff; padding: 50px;">
+    			Bio <!--Padding is optional-->
+  			</span>
+		</div>
+	</section>
+
+	<section class="text-justify">
+	<p>
+		<font face="verdana" size="3">Hi,its me Mitchell and welcome to my corner. I'm an Engineer, a photographer, and a full time Software Engineer. I did 4 years in Dublin City University for my BEng(Hons) in Mechatronic Engineering(a.k.a Robotic Engineering). I recently started my career in the world of software engineering with an IT consulting firm and I'm looking forward to this new challenge. Currently my work is divided between making insightful Tech Youtube videos and photography, hence why i created this website to allow me showcase my work.</font>
+	</p>
+	<p style="padding: 10px 0px 0px 0px;">
+		<font face="verdana" size="3">Overall, I hope you enjoy browsing my website. Feel free to get in touch if you have any questions or would like more information.</font>
+	</p>
+		
+
+	</section>
+</div>
 
 
 
-
-		<!--using local jquery stuff-->
-	<script src="js/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-	<script src="js/bootstrap.min.js" "></script>
+<!--using local jquery stuff-->
+<script src="js/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js" "></script>
 </body>
 </html>
