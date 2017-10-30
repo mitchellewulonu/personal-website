@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- Optional theme -->
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<<<<<<< HEAD
 </head>
 <body>
 	<div class="body">
@@ -37,5 +38,17 @@
 	<script src="/js/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js" "></script>
+=======
+
+
+</head>
+<body>
+
+
+		<!--using local jquery stuff-->
+		<script src="/js/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js" "></script>
+>>>>>>> 96156206768268ba48fe3aa99213c552d27dbea6
 </body>
 </html>
