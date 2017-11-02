@@ -96,7 +96,7 @@
 				<div class="panel-body">
 					<h4>BEng. in Mechatronic Engineering</h4>
 					<blockquote>
-						<footer> <a href="https://www4.dcu.ie/courses/undergraduate/electronics/mechatronic-engineering.shtml" style="text-decoration: none;"><font face="verdana">Dublin City University</font></a></footer>
+						<footer> <a href="https://www4.dcu.ie/courses/undergraduate/electronics/mechatronic-engineering.shtml" style="text-decoration: none;" id="college-name"><font face="verdana">Dublin City University</font></a></footer>
 					</blockquote>
 				</div>
 			</div>
