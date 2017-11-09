@@ -125,7 +125,7 @@
 	<script src="js/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js" "></script>
-	<!--This will update year automatically->
+	<!--This will update year automatically-->
 	<script type="text/javascript">
 		document.getElementById("year").textContent = new Date().getFullYear();
 	</script>
