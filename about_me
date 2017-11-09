@@ -114,7 +114,7 @@
 			<li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" style="font-size:24px"></i></a></li>
 			<li><a href="https://www.linkedin.com/in/mitchell-ewulonu-9b376289/"><i class="fa fa-linkedin-square" style="font-size:24px" ></i></a></li>
 		</ul>
-		<p>&copy;Copyright 2016 - 2017 | Mitchell Ewulonu | All Rights Reserved</p>
+		<p>&copy;Copyright 2016 - <span id="year"></span> | Mitchell Ewulonu | All Rights Reserved</p>
 	</div>
 
 </footer>
@@ -125,5 +125,8 @@
 	<script src="js/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js" "></script>
+	<script type="text/javascript">
+		document.getElementById("year").textContent =new Date().getFullYear();
+	</script>
 </body>
 </html>
