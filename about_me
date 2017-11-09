@@ -70,7 +70,7 @@
 
 	<section class="text-justify">
 	<p>
-		<font face="verdana" size="3">Hi,its me Mitchell and welcome to my corner. I'm an Engineer, a photographer, and a full time Software Engineer. I did 4 years in Dublin City University for my BEng(Hons) in Mechatronic Engineering(a.k.a Robotic Engineering). I recently started my career in the world of software engineering with an IT consulting firm and I'm looking forward to this new challenge. Currently my work is divided between making insightful Tech Youtube videos and photography, hence why i created this website to allow me showcase my work.</font>
+		<font face="verdana" size="3">Hi,its me Mitchell and welcome to my corner. I'm an Engineer, a photographer, and a full time Software Engineer. I did 4 years in Dublin City University for my BEng(Hons) in Mechatronic Engineering(a.k.a Robotic Engineering). I recently started my career in the world of software engineering with an IT consulting firm and I'm looking forward to this new challenge. Currently my work is divided between making insightful Tech Youtube videos and photography, hence why I created this website to allow me showcase my work.</font>
 	</p>
 	<p style="padding: 10px 0px 0px 0px;">
 		<font face="verdana" size="3">Overall, I hope you enjoy browsing my website. Feel free to get in touch if you have any questions or would like more information.</font>
@@ -125,8 +125,9 @@
 	<script src="js/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js" "></script>
+	<!--This will update year automatically->
 	<script type="text/javascript">
-		document.getElementById("year").textContent =new Date().getFullYear();
+		document.getElementById("year").textContent = new Date().getFullYear();
 	</script>
 </body>
 </html>
