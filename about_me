@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container">
-	<nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar" >
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -35,7 +35,7 @@
 		    		<li><a href="#">Photography</a> 
 		    		<li><a href="#">Videos</a>
 		    		<li><a href="#">Home</a>
-		    		<li><a href="#">Contact</a>
+		    		<li><a href="contact.php">Contact</a>
 		    		<li><a href="about_me">About me</a>
 
 		    	</ul>	
@@ -75,8 +75,6 @@
 	<p style="padding: 10px 0px 0px 0px;">
 		<font face="verdana" size="3">Overall, I hope you enjoy browsing my website. Feel free to get in touch if you have any questions or would like more information.</font>
 	</p>
-		
-
 	</section>
 </div>
 
