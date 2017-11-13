@@ -1,5 +1,5 @@
 <?php 
-print_r($_POST);
+require("sendgrid-php/sendgrid-php.php");
 // define variables and set to empty values
 $name_error = $email_error  = "";
 $name = $email = $message= $subject= "";
@@ -49,13 +49,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
       
+
+      $from = new SendGrid\Email(null, $email);
+      //$subject = "Hello World from the SendGrid PHP Library!";
+      $to = new SendGrid\Email(null, "ewulonu.mitchell@yahoo.ie");
+      $content = new SendGrid\Content("text/plain", $message);
+      $mail = new SendGrid\Mail($from, $subject, $to, $content);
+
+      $apiKey = getenv('SENDGRID_API_KEY');
+      $sg = new \SendGrid($apiKey);
+
+      $response = $sg->client->mail()->send()->post($mail);      
+
+      /*
       $to = 'ewulonu.mitchell@yahoo.ie';
       $headers="From: ".$email;
-      //$subject = 'Contact Form Submit';
       if (mail($to, $subject, $message, $headers)){
           $success = "Message sent, thank you for contacting me " . $name. "!";
           $name = $email = $phone = $message = $subject = '';
-      }
+      }*/
   }
   
 }
