@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       //$to = 'ewulonu.mitchell@yahoo.ie';
       //$headers="From: ".$email;
-      if ($response = $sg->client->mail()->send()->post($mail)){
+      if ($response != null){
           $success = "Message sent, thank you for contacting me " . $name. "!";
           $name = $email = $phone = $message = $subject = '';
       }
