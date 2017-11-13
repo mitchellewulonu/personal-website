@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $apiKey = getenv('SENDGRID_API_KEY');
       $sg = new \SendGrid($apiKey);
 
-      //$response = $sg->client->mail()->send()->post($mail);     
+      $response = $sg->client->mail()->send()->post($mail);     
 
       
       //$to = 'ewulonu.mitchell@yahoo.ie';
