@@ -59,15 +59,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $apiKey = getenv('SENDGRID_API_KEY');
       $sg = new \SendGrid($apiKey);
 
-      $response = $sg->client->mail()->send()->post($mail);      
+      $response = $sg->client->mail()->send()->post($mail);     
 
-      /*
-      $to = 'ewulonu.mitchell@yahoo.ie';
-      $headers="From: ".$email;
-      if (mail($to, $subject, $message, $headers)){
+      
+      //$to = 'ewulonu.mitchell@yahoo.ie';
+      //$headers="From: ".$email;
+      if ($response = $sg->client->mail()->send()->post($mail)){
           $success = "Message sent, thank you for contacting me " . $name. "!";
           $name = $email = $phone = $message = $subject = '';
-      }*/
+      }
   }
   
 }
