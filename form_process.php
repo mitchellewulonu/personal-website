@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       $from = new SendGrid\Email(null, $email);
       //$subject = "Hello World from the SendGrid PHP Library!";
-      $to = new SendGrid\Email(null, "ewulonu.mitchell@yahoo.ie");
+      $to = new SendGrid\Email(null, "mitchell.ewulonu2@mail.dcu.ie");
       $content = new SendGrid\Content("text/plain", $message);
       $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
