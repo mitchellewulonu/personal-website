@@ -46,7 +46,7 @@
 
 <div class="jumbotron" id="About">
 	<div class="container text-center">
-		<h1><a href="#" style="text-decoration: none;" id="About-me"> About me</a></h1>
+		<h1> About me</h1>
 		<div class="btn-group btn-group-justified">
 			<a href="#Bio" class="btn btn-lg btn-default">Bio</a>
 			<a href="#Education" class="btn btn-lg btn-default">Education</a>

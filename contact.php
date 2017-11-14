@@ -35,7 +35,7 @@
 		    		<li><a href="#">Photography</a> 
 		    		<li><a href="#">Videos</a>
 		    		<li><a href="#">Home</a>
-		    		<li><a href="contact">Contact</a>
+		    		<li><a href="contact.php">Contact</a>
 		    		<li><a href="about_me">About me</a>
 		    	</ul>	
 		    </div>
